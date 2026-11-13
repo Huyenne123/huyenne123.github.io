@@ -43,12 +43,79 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 25px;
 }
 
+.repo_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.repo_title {
+    margin: 0 !important;
+}
+
+.repo_buttons {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.repo_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    letter-spacing: -0.2px;
+    white-space: nowrap;
+}
+
+.btn_sileo {
+    background: #2a7be4;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(42, 123, 228, 0.3);
+}
+
+.btn_sileo:hover {
+    background: #246ac7;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(42, 123, 228, 0.4);
+    opacity: 1 !important;
+}
+
+.btn_zebra {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_zebra:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    opacity: 1 !important;
+}
+
 .scroll_view {
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     margin: 10px;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.scroll_view::-webkit-scrollbar {
+    display: none;
 }
 
 .scroll_view > .card {
@@ -227,5 +294,18 @@ a {
 
     .subtle_link, .subtle_link > div > div, .subtle_link > div > div > p {
         color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .btn_zebra {
+        background: #f2f2f7;
+        color: #1c1c1e !important;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    }
+    .btn_zebra:hover {
+        background: #e5e5ea;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     }
 }
