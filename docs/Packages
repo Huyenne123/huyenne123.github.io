@@ -1,21 +1,21 @@
 Package: com.locklyrics.tweak
-Version: 1.0.24
-Architecture: iphoneos-arm64
+Version: 1.0.0
+Architecture: iphoneos-arm64e
 Maintainer: neyuh <huyenbpg1412@gmail.com>
 Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Filename: pkg/com.locklyrics.tweak.deb
-Size: 96958
-MD5sum: 408db4cf34bfe442d84ee943f8a37590
-SHA1: 52816cb43941bf1f19da158a6aa02a017924833d
-SHA256: f6452aef6b02b8b4859dd03c34a8d0dda82a395b6e7c3615093e1c256ee5ab75
+Size: 96940
+MD5sum: 9f3ab54c903458c2ca4601a056038d40
+SHA1: ad636c451c69736160495157951b7f34c0bcbf8e
+SHA256: fda1cf66d7264970b0ec37bfedb3344c749c29ec43c597654d9da6e1e26c92ca
 Section: Tweaks
 Homepage: https://huyenne123.github.io
-Description: Synced lyrics on your iOS lock screen fetched in real-time from LRCLIB with customizable positioning and live dragging!
+Description: Real-time synced lyrics on your lock screen with LRCLIB, lrc.red & Musixmatch support!
 Author: neyuh <huyenbpg1412@gmail.com>
 Depiction: https://huyenne123.github.io/depiction/web/com.locklyrics.tweak.html
 Icon: https://huyenne123.github.io/assets/com.locklyrics.tweak/icon.png
 Moderndepiction: https://huyenne123.github.io/depiction/native/com.locklyrics.tweak.json
 Name: LockLyrics
 Sileodepiction: https://huyenne123.github.io/depiction/native/com.locklyrics.tweak.json
-Tags: compatible_min::ios16.0, compatible_max::ios17.0
+Tags: compatible_min::ios16.0, compatible_max::ios18.0
 
