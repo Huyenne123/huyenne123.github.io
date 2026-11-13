@@ -3,7 +3,7 @@
     "name": "LockLyrics",
     "version": "1.0.24",
     "tagline": "Synced lyrics on your iOS lock screen fetched in real-time from LRCLIB with customizable positioning and live dragging!",
-    "homepage": "https://neyuh.github.io",
+    "homepage": "https://huyenne123.github.io",
     "developer": {
         "name": "neyuh",
         "email": "huyenbpg1412@gmail.com"
@@ -15,7 +15,7 @@
     "social": [
         {
             "name": "GitHub",
-            "url": "https://github.com/neyuh"
+            "url": "https://github.com/Huyenne123"
         }
     ],
     "section": "Tweaks",
