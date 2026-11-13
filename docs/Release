@@ -1,0 +1,12 @@
+Origin: neyuh's repo
+Label: neyuh's repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: The
+
+SHA256:
+ 64cc48f57eeb9784d796f9ca3bc2cb67049fd3bb6c4e1aa659571eb9e6c417e8 653 Packages.bz2
+ e49ed46e388da5742022890aeabae0740a83c5fdc856d8d5f677c4c4d0e71dd9 656 Packages.xz

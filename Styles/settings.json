@@ -1,0 +1,11 @@
+{
+    "name": "neyuh's repo",
+    "description": "The",
+    "tint": "",
+    "cname": "neyuh.github.io",
+    "maintainer": {
+        "name": "neyuh",
+        "email": "huyenbpg1412@gmail.com"
+    },
+    "automatic_git": "true"
+}
