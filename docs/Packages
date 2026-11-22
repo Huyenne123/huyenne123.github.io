@@ -1,16 +1,16 @@
 Package: com.locklyrics.tweak
-Version: 1.2.2
+Version: 1.3.0
 Architecture: iphoneos-arm64e
 Maintainer: neyuh <huyenbpg1412@gmail.com>
 Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Filename: pkg/com.locklyrics.tweak.deb
-Size: 156840
-MD5sum: 31e53877e323890fc18e16ebbd448f09
-SHA1: 17ef35475e05d4026f42c9cdafc164e8ad2258c1
-SHA256: f3538d15ba5467388059c82c60634ea14a90289b390d16b432aada2ba9033aa8
+Size: 196876
+MD5sum: bd60651c82acc29055e143884fa6298a
+SHA1: 9f5129232092f7bb6631aa145d6b46ad38a43523
+SHA256: 47a328f0609b9a08ebe43896bac4fbb5ecc51000d6f26b3c6b7d7d177c93092f
 Section: Tweaks
 Homepage: https://huyenne123.github.io
-Description: Real-time synced lyrics on your lock screen with LRCLIB, lrc.red, Musixmatch & SpicyLyrics support!
+Description: Real-time synced lyrics & album-art Metal mesh dynamic wallpaper on your iOS Lock Screen!
 Author: neyuh <huyenbpg1412@gmail.com>
 Depiction: https://huyenne123.github.io/depiction/web/com.locklyrics.tweak.html
 Icon: https://huyenne123.github.io/assets/com.locklyrics.tweak/icon.png
