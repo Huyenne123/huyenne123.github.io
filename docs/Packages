@@ -1,13 +1,13 @@
 Package: com.locklyrics.tweak
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm64e
 Maintainer: neyuh <huyenbpg1412@gmail.com>
 Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Filename: pkg/com.locklyrics.tweak.deb
-Size: 203764
-MD5sum: 712db00d0f55537a74eafa35ddc49679
-SHA1: 58ceaf96636750ce80a417ed4919ce42238d4816
-SHA256: cc02d650995fd2464a182031c67c23579e3b39b466f0323cb2a25c77be135f7a
+Size: 224696
+MD5sum: 889a92c6160e8edcd54cfd8c0e46cd1d
+SHA1: 1616ba74ca07cefd2303c7b2b64522fa8ba2c442
+SHA256: f7c41a3c1301a4bc22ec5389eca2b0350825b63be41efdca427e509e44e667e5
 Section: Tweaks
 Homepage: https://huyenne123.github.io
 Description: Real-time synced lyrics & album-art Metal mesh dynamic wallpaper on your iOS Lock Screen & Home Screen!
